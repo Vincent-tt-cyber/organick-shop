@@ -1,0 +1,47 @@
+.home {
+  background-image: url("../../assets/images/herosection-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 250px 0;
+}
+.home-text {
+  text-align: left;
+}
+.home__top-title {
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  color: #68a47f;
+  margin: 0px 0px 0px 0px;
+}
+
+.home__title {
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+  max-width: 530px;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .home {
+    background-position: center top ;
+  }
+  .home-text {
+    text-align: center;
+  }
+  .home__title {
+    margin: 0 auto;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .home__title {
+    font-size: 45px;
+  }
+}

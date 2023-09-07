@@ -1,0 +1,19 @@
+.herosection {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 450px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 130px 0px;
+}
+
+.herosection h1 {
+  color: #274c5b;
+  font-family: "Roboto", sans-serifs;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: normal;
+}
