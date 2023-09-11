@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 
-const Rating = ({ rating }) => {
+const Rating = ({ rating, isDesabled }) => {
   const [countRating, setCountRating] = React.useState(rating);
 
   const handleRatingChange = (newRating) => {
@@ -13,7 +13,7 @@ const Rating = ({ rating }) => {
         <span
           key={star}
           style={{ cursor: "pointer" }}
-          onClick={() => handleRatingChange(star)}
+          onClick={() => isDesabled && handleRatingChange(star)}
         >
           {star <= countRating ? (
             <AiFillStar color="#FFA858" />

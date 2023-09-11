@@ -36,7 +36,7 @@ export const ProductPage = () => {
                   <h3 className={styles["product-page__info-text-title"]}>
                     {product.title}
                   </h3>
-                  <Rating rating={product.rating} />
+                  <Rating isDesabled={true} rating={product.rating} />
                   <div className={styles['"product-page__info-text-prices']}>
                     <span
                       className={styles["product-page__info-text-old-price"]}

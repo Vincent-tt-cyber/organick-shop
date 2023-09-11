@@ -11,7 +11,8 @@ export const Header = () => {
   const [isOpenMenu, setIsOpenMenu] = React.useState(false);
   const [isSubMenuOpen, setIsSubMenuOpen] = React.useState(false);
 
-  const toggleMenu = () => {setIsOpenMenu((prev) => !prev);
+  const toggleMenu = () => {
+    setIsOpenMenu((prev) => !prev);
   };
 
   useEffect(() => {

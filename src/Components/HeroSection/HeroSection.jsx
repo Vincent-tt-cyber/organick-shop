@@ -10,4 +10,4 @@ const HeroSection = ({ background, children }) => {
     </section>
   );
 };
-export default HeroSection
+export default HeroSection;

@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import { SectionSale } from "../../Components/SectionSale/SectionSale";
 import { SectionAboutUs } from "../../Components/SectionAboutUs/SectionAboutUs";
 import { CategoriesSection } from "../../Components/CategoriesSection/CategoriesSection";
+import { TestimonialSection } from "../../Components/TestimonialSection/TestimonialSection";
 export const Home = () => {
   return (
     <>
@@ -20,6 +21,7 @@ export const Home = () => {
         <SectionSale />
         <SectionAboutUs />
         <CategoriesSection />
+        <TestimonialSection/>
       </section>
     </>
   );

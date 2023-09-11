@@ -59,7 +59,8 @@ export const products = [
     rating: 5,
     oldPrice: 20.0,
     activePrice: 13.0,
-    description: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 2,
@@ -69,7 +70,8 @@ export const products = [
     rating: 5,
     oldPrice: 20.0,
     activePrice: 14.0,
-    description: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 3,
@@ -79,7 +81,8 @@ export const products = [
     rating: 3,
     oldPrice: 20.0,
     activePrice: 15.0,
-    description: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 4,
@@ -89,7 +92,8 @@ export const products = [
     rating: 3,
     oldPrice: 20.0,
     activePrice: 17.0,
-    description: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 5,
@@ -99,7 +103,8 @@ export const products = [
     rating: 5,
     oldPrice: 20.0,
     activePrice: 11.0,
-    description: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 6,
@@ -109,7 +114,8 @@ export const products = [
     rating: 5,
     oldPrice: 20.0,
     activePrice: 12.0,
-    description: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 7,
@@ -119,7 +125,8 @@ export const products = [
     rating: 5,
     oldPrice: 20.0,
     activePrice: 17.0,
-    description: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
   {
     id: 8,
@@ -129,6 +136,28 @@ export const products = [
     rating: 5,
     oldPrice: 20.0,
     activePrice: 15.0,
-    description: "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+  },
+];
+
+export const clients = [
+  {
+    id: 1,
+    userAvatar: "/userAvatar.jpg",
+    userName: "Sara Taylor",
+    type: "Consumer",
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    rating: 5,
+  },
+  {
+    id: 2,
+    userAvatar: "/userAvatar.jpg",
+    userName: "Sara Taylor",
+    type: "Consumer",
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+    rating: 3,
   },
 ];

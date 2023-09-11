@@ -32,7 +32,7 @@ export const ProductCard = ({ product }) => {
                     </div>
                   </div>
                   <div>
-                    <Rating rating={product.rating} />
+                    <Rating isDesabled={false} rating={product.rating} />
                   </div>
                 </div>
               </div>
