@@ -151,13 +151,36 @@ export const clients = [
       "Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
     rating: 5,
   },
+  // {
+  //   id: 2,
+  //   userAvatar: "/userAvatar.jpg",
+  //   userName: "Sara Taylor",
+  //   type: "Consumer",
+  //   description:
+  //     "Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
+  //   rating: 3,
+  // },
+];
+
+export const organickStatistick = [
+  {
+    id: 1,
+    name: "Organic",
+    value: "100%",
+  },
   {
     id: 2,
-    userAvatar: "/userAvatar.jpg",
-    userName: "Sara Taylor",
-    type: "Consumer",
-    description:
-      "Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-    rating: 3,
+    name: "Active Product",
+    value: 285,
+  },
+  {
+    id: 3,
+    name: "Organic Orchads",
+    value: "350+",
+  },
+  {
+    id: 4,
+    name: "Years of Farming",
+    value: "25+",
   },
 ];

@@ -1,6 +1,121 @@
 .testimonial {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 160px 0px 160px 0px;
+}
+
+.testimonial__text {
+  text-align: center;
+  margin: 0px 0px 50px 0px;
+}
+
+.testimonial__text-top-title {
+  color: #7eb693;
+  font-family: "Yellowtail", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px 0px 9px 0px;
+}
+
+.testimonial__text-title {
+  color: #274c5b;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.user {
+  max-width: 780px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0px 0px 102px 0px;
+  margin: 0px auto 100px auto;
+}
+.user__avatar {
+  max-width: 155px;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+}
+
+.user__text {
+  color: #525c60;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  margin: 0px 0px 20px 0px;
+}
+
+.user__name {
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.user__type {
+  color: #525c60;
+  font-family: "Open Sans", sans-serifА;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.statistics {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.circle {
+  border: 3px solid #7eb693;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  /* padding: 3px; */
+}
+
+.circle__cover {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  /* margin: 3px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.circle__cover h2 {
+  color: #274c5b;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.circle__cover p {
+  color: #274c5b;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 29px;
 }
