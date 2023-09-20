@@ -48,11 +48,34 @@
 }
 
 .add-cart svg {
-    margin: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 10px;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .add-cart {
+    padding: 20px 30px;
+  }
+  .quanity__counter {
+    max-width: 50px;
+    min-height: 50px;
+    margin: 0px 20px 0px 0px;
+  }
+}
+@media (max-width: 425px) {
+  .quanity__counter {
+    font-size: 16px;
+  }
+  .add-cart {
+    padding: 15px 15px;
+    font-size: 15px;
+  }
+  .add-cart svg {
+    display: none;
+  }
 }

@@ -11,7 +11,7 @@ export const SectionAboutUs = () => {
       <section className={styles["about-us"]}>
         <div className="container">
           <div className={styles["about-us-row"]}>
-            <img src={AboutAsImage} alt="oranges" />
+            <img className={styles['about-us__image']} src={AboutAsImage} alt="oranges" />
             <div className={styles["about-us-text"]}>
               <h3 className={styles["about-us__top-title"]}>About Us</h3>
               <h2 className={styles["about-us__title"]}>

@@ -36,7 +36,7 @@ export const TestimonialSection = () => {
         </div>
         <div className={styles["statistics"]}>
           {organickStatistick.map((item) => (
-            <div id={item.id} className={styles["circle"]}>
+            <div key={item.id} className={styles["circle"]}>
               <div className={styles["circle__cover"]}>
                 <h2>{item.value}</h2>
                 <p>{item.name}</p>

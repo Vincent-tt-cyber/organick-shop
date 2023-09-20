@@ -1,0 +1,49 @@
+.offer-section {
+  background-color: #274c5b;
+  padding: 200px 0;
+}
+
+.offer-section-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0px 0px 50px 0px;
+}
+
+.offer-section__top-title {
+  color: #7eb693;
+  font-family: "Yellowtail", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px 0px 8px 0px;
+}
+.offer-section__title {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.offer-section-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px 20px;
+}
+
+@media (max-width: 1200px) {
+  .offer-section-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 880px) {
+  .offer-section-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .offer-section-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

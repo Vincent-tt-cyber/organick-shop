@@ -6,12 +6,17 @@ const ProductQuantity = () => {
   const [quanity, setQuanity] = React.useState(1);
 
   const handleQuantityChange = (e) => {
-    setQuanity(parseInt(e.target.value));
+    const value = parseInt(e.target.value);
+    if (!isNaN(value) && value <= 10) {
+      setQuanity(value);
+    } else if (e.target.value === "") {
+      setQuanity("");
+    }
   };
 
   const handleAddToCart = () => {
-    console.log("Добавлено в корзину:", quanity);
     // Добавить логику для добавления продукта в корзину здесь
+    alert("Добавлено в корзину.");
   };
   return (
     <>
@@ -25,6 +30,7 @@ const ProductQuantity = () => {
           id="quantity"
           name="quantity"
           min="1"
+          max="10"
           value={quanity}
           onChange={handleQuantityChange}
         />

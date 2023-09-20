@@ -17,3 +17,29 @@
   font-weight: 800;
   line-height: normal;
 }
+
+@media (max-width: 1024px) {
+  .herosection {
+    min-height: 300px;
+    margin: 0px 0px 100px 0px;
+  }
+  .herosection h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .herosection {
+    min-height: 250px;
+  }
+  .herosection h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 425px) {
+  .herosection {
+    min-height: 200px;
+  }
+  .herosection h1 {
+    font-size: 30px;
+  }
+}

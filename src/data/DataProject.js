@@ -139,6 +139,50 @@ export const products = [
     description:
       "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
   },
+  {
+    id: 9,
+    imageURL: "./product-9.png",
+    category: "Vegetable",
+    title: "Mung Bean",
+    rating: 5,
+    oldPrice: 20.0,
+    activePrice: 11.0,
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+  },
+  {
+    id: 10,
+    imageURL: "./product-10.png",
+    category: "Vegetable",
+    title: "Brown Hazelnut",
+    rating: 5,
+    oldPrice: 20.0,
+    activePrice: 12.0,
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+  },
+  {
+    id: 11,
+    imageURL: "./product-11.png",
+    category: "Vegetable",
+    title: "Onion",
+    rating: 5,
+    oldPrice: 20.0,
+    activePrice: 17.0,
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+  },
+  {
+    id: 12,
+    imageURL: "./product-12.png",
+    category: "Vegetable",
+    title: "Cabbage",
+    rating: 5,
+    oldPrice: 20.0,
+    activePrice: 17.0,
+    description:
+      "Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.",
+  },
 ];
 
 export const clients = [

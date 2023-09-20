@@ -4,6 +4,7 @@ import { SectionSale } from "../../Components/SectionSale/SectionSale";
 import { SectionAboutUs } from "../../Components/SectionAboutUs/SectionAboutUs";
 import { CategoriesSection } from "../../Components/CategoriesSection/CategoriesSection";
 import { TestimonialSection } from "../../Components/TestimonialSection/TestimonialSection";
+import { SectionOffer } from "../../Components/SectionOffer/SectionOffer";
 export const Home = () => {
   return (
     <>
@@ -21,7 +22,8 @@ export const Home = () => {
         <SectionSale />
         <SectionAboutUs />
         <CategoriesSection />
-        <TestimonialSection/>
+        <TestimonialSection />
+        <SectionOffer />
       </section>
     </>
   );

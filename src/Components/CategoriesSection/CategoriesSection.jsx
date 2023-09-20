@@ -10,7 +10,7 @@ export const CategoriesSection = () => {
         <h3 className={styles["categories__top-title"]}>Categories</h3>
         <h2 className={styles["categories__title"]}>Our Products</h2>
         <div className={styles["categories-row"]}>
-          {products.map((product) => (
+          {products.slice(0, 8).map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>

@@ -41,8 +41,7 @@
   line-height: 29px;
   margin: 0px 0px 50px 0px;
 }
-img {
-  /* max-width: 800px; */
+.about-us__image {
   width: 50%;
 }
 
@@ -60,8 +59,24 @@ img {
   align-items: center;
   margin: 0px 0px 30px 0px;
 }
+
 .about-us-advantage:last-child {
   margin: 0px;
+}
+
+.about-us-advantage h3 {
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: normal;
+}
+.about-us-advantage p {
+  color: #525c60;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
 }
 .about-us-advantages__icon {
   min-width: 101px;
@@ -97,5 +112,24 @@ img {
   }
   .about-us__title {
     margin: 0px auto 15px auto;
+  }
+
+  .about-us-advantage {
+    flex-direction: column;
+  }
+  .about-us-advantages__icon {
+    margin: 0px 0px 20px 0px;
+  }
+  .about-us-advantage p {
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us__image {
+    width: 100%;
+  }
+
+  .about-us__title {
+    font-size: 40px;
   }
 }
