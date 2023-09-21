@@ -16,7 +16,7 @@ export const SectionOffer = () => {
               We Offer Organic For You
             </h2>
           </div>
-          <Link to="/shop">
+          <Link className={styles["offer-section__link"]} to="/shop">
             View All Product <SVGSelectHandler id="arrow-left" />
           </Link>
         </div>

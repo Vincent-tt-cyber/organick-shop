@@ -50,7 +50,9 @@ export const BurgerMenuList = ({ isOpenMenu, setIsOpenMenu }) => {
                         to={child.path}
                         onClick={() => setIsOpenMenu((prev) => !prev)}
                       >
-                        <li className={styles['burger-menu__link-child']}>{child.title}</li>
+                        <li className={styles["burger-menu__link-child"]}>
+                          {child.title}
+                        </li>
                       </Link>
                     ))}
                   </ul>
